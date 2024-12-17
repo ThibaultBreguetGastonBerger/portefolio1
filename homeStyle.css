@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navBarre {
+    text-align: center;
+    font-size: 40px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    /* border: 2px solid gray; */
+}
+footer{
+    /*le 0.3 est pour l'opacité, avec rgba l'opacité n'est pas restransmise aux "enfants"*/
+    background-color:rgba(100, 255, 255, 0.3);
+    text-align: right;
+    font-size: 30px;
+}
